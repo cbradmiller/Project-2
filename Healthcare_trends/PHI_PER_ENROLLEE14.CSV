@@ -1,0 +1,61 @@
+Code,Item,Group,Region_Number,REGION_NAME,State_Name,Y2001,Y2002,Y2003,Y2004,Y2005,Y2006,Y2007,Y2008,Y2009,Y2010,Y2011,Y2012,Y2013,Y2014,Average_Annual_Percent_Growth
+1,Private Health Insurance/Personal Health Care ($),United States,0,United States,,2250,2462,2681,2891,3080,3229,3402,3578,3872,4063,4239,4326,4419,4551,5.6
+1,Private Health Insurance/Personal Health Care ($),Region,1,New England,,2569,2741,2891,3218,3377,3543,3742,4068,4423,4718,4956,5047,5065,5162,5.5
+1,Private Health Insurance/Personal Health Care ($),Region,2,Mideast,,2437,2581,2808,3005,3196,3455,3668,3798,4161,4382,4688,4719,4927,5004,5.7
+1,Private Health Insurance/Personal Health Care ($),Region,3,Great Lakes,,2343,2623,2848,3010,3231,3397,3618,3747,3995,4194,4223,4253,4349,4477,5.1
+1,Private Health Insurance/Personal Health Care ($),Region,4,Plains,,2131,2361,2541,2883,2881,3188,3274,3465,3719,3791,4089,4263,4251,4461,5.8
+1,Private Health Insurance/Personal Health Care ($),Region,5,Southeast,,2168,2377,2555,2798,2938,3029,3193,3405,3645,3803,3922,4054,4150,4289,5.4
+1,Private Health Insurance/Personal Health Care ($),Region,6,Southwest,,2095,2361,2605,2737,3076,3073,3227,3347,3742,3983,4011,4232,4316,4465,6
+1,Private Health Insurance/Personal Health Care ($),Region,7,Rocky Mountains,,2080,2284,2476,2614,2941,3021,3116,3227,3411,3388,3667,3783,3966,4149,5.5
+1,Private Health Insurance/Personal Health Care ($),Region,8,Far West,,2153,2345,2644,2838,3038,3178,3348,3564,3873,4124,4392,4391,4431,4571,6
+1,Private Health Insurance/Personal Health Care ($),State,5,Southeast,Alabama,2250,2270,2532,2870,2836,2985,3161,3183,3482,3433,3521,3466,3549,3641,3.8
+1,Private Health Insurance/Personal Health Care ($),State,8,Far West,Alaska,3200,3422,3851,4094,4446,4137,4244,4574,5012,5323,5709,6470,5791,5958,4.9
+1,Private Health Insurance/Personal Health Care ($),State,6,Southwest,Arizona,1932,2056,2404,2498,2900,2726,3083,3505,3644,3738,4064,4084,3769,4035,5.8
+1,Private Health Insurance/Personal Health Care ($),State,5,Southeast,Arkansas,1995,2465,2276,2469,2520,2862,2953,3316,3355,3293,3463,3773,3730,3906,5.3
+1,Private Health Insurance/Personal Health Care ($),State,8,Far West,California,2175,2303,2637,2818,3005,3174,3326,3521,3788,4092,4499,4446,4560,4735,6.2
+1,Private Health Insurance/Personal Health Care ($),State,7,Rocky Mountains,Colorado,2130,2370,2613,2797,3059,3062,3276,3515,3721,3593,4037,4091,4379,4623,6.1
+1,Private Health Insurance/Personal Health Care ($),State,1,New England,Connecticut,2641,2646,3031,3297,3435,3655,3821,4196,4593,4727,4978,5018,5011,5187,5.3
+1,Private Health Insurance/Personal Health Care ($),State,2,Mideast,Delaware,2674,2953,3022,3458,3620,3711,3914,3997,4209,4301,4971,4616,4498,4806,4.6
+1,Private Health Insurance/Personal Health Care ($),State,2,Mideast,District of Columbia,5055,5280,5953,6403,6462,6642,6640,7070,7684,8164,8904,8631,8638,8831,4.4
+1,Private Health Insurance/Personal Health Care ($),State,5,Southeast,Florida,2211,2458,2551,2757,2954,3052,3275,3529,3778,4198,4195,4299,4429,4606,5.8
+1,Private Health Insurance/Personal Health Care ($),State,5,Southeast,Georgia,2425,2303,2736,2977,3200,3074,3154,3488,3615,3735,3946,4045,4329,4406,4.7
+1,Private Health Insurance/Personal Health Care ($),State,8,Far West,Hawaii,2102,2061,2190,2607,2891,3053,3197,3424,3636,3666,3893,4086,3976,4222,5.5
+1,Private Health Insurance/Personal Health Care ($),State,7,Rocky Mountains,Idaho,1957,2099,2587,2580,2782,2982,2838,2908,3141,3127,3036,3364,3414,3560,4.7
+1,Private Health Insurance/Personal Health Care ($),State,3,Great Lakes,Illinois,2353,2795,2915,2982,3131,3368,3598,3736,4218,4242,4326,4423,4680,4875,5.8
+1,Private Health Insurance/Personal Health Care ($),State,3,Great Lakes,Indiana,2441,2670,2932,3091,3375,3242,3674,3809,3687,3743,3872,4041,4045,4078,4
+1,Private Health Insurance/Personal Health Care ($),State,4,Plains,Iowa,2019,2337,2473,2941,2835,3397,3342,3447,3679,3898,3779,4001,3982,4076,5.6
+1,Private Health Insurance/Personal Health Care ($),State,4,Plains,Kansas,2213,2223,2391,2748,2669,2794,3074,3300,3474,3682,3802,3916,4272,4855,6.2
+1,Private Health Insurance/Personal Health Care ($),State,5,Southeast,Kentucky,2063,2290,2515,2960,2964,2874,3178,3405,3958,4089,4548,4565,4564,4551,6.3
+1,Private Health Insurance/Personal Health Care ($),State,5,Southeast,Louisiana,2098,2389,2475,2792,3092,3280,3172,3388,3598,3729,3779,4278,4319,4420,5.9
+1,Private Health Insurance/Personal Health Care ($),State,1,New England,Maine,2314,2573,2747,3122,3237,3616,3680,3804,4089,4302,4522,4720,4863,5015,6.1
+1,Private Health Insurance/Personal Health Care ($),State,2,Mideast,Maryland,2104,2316,2476,2775,2962,3112,3262,3484,3858,3987,4220,4243,4159,4343,5.7
+1,Private Health Insurance/Personal Health Care ($),State,1,New England,Massachusetts,2697,2918,2898,3227,3335,3519,3715,4067,4386,4832,5063,5254,5245,5302,5.3
+1,Private Health Insurance/Personal Health Care ($),State,3,Great Lakes,Michigan,2372,2599,2882,3036,3207,3582,3640,3642,3874,4191,3952,3949,3865,3950,4
+1,Private Health Insurance/Personal Health Care ($),State,4,Plains,Minnesota,2204,2500,2784,2977,3014,3187,3346,3667,3834,3946,4452,4384,4263,4603,5.8
+1,Private Health Insurance/Personal Health Care ($),State,5,Southeast,Mississippi,2087,2100,2321,2434,2965,2750,3182,3251,3453,3747,3736,3860,3931,4045,5.2
+1,Private Health Insurance/Personal Health Care ($),State,4,Plains,Missouri,2014,2213,2403,2787,2930,3317,3290,3381,3785,3578,4036,4429,4360,4354,6.1
+1,Private Health Insurance/Personal Health Care ($),State,7,Rocky Mountains,Montana,2126,2024,2359,2372,2765,2891,2899,3102,3114,3145,3659,3760,3870,3882,4.7
+1,Private Health Insurance/Personal Health Care ($),State,4,Plains,Nebraska,2374,2594,2644,3117,2827,3155,3353,3467,3732,4029,4137,4325,4151,4536,5.1
+1,Private Health Insurance/Personal Health Care ($),State,8,Far West,Nevada,1953,2349,2590,2895,3066,2903,2898,3306,4108,3893,3972,3279,3295,3417,4.4
+1,Private Health Insurance/Personal Health Care ($),State,1,New England,New Hampshire,2254,2481,2735,3143,3452,3503,3744,4111,4581,4567,5007,4688,4738,4880,6.1
+1,Private Health Insurance/Personal Health Care ($),State,2,Mideast,New Jersey,2454,2680,2834,3075,3130,3431,3614,3497,3938,4053,4442,4583,4959,5081,5.8
+1,Private Health Insurance/Personal Health Care ($),State,6,Southwest,New Mexico,2204,1963,2243,2347,2564,2787,2770,2827,3510,3712,4095,4530,4399,4155,5
+1,Private Health Insurance/Personal Health Care ($),State,2,Mideast,New York,2558,2635,2954,3016,3219,3586,3892,4088,4541,4922,5100,5111,5362,5338,5.8
+1,Private Health Insurance/Personal Health Care ($),State,5,Southeast,North Carolina,2099,2672,2719,2625,2771,3060,3064,3317,3776,3660,3782,3770,3663,3859,4.8
+1,Private Health Insurance/Personal Health Care ($),State,4,Plains,North Dakota,2192,2366,2358,2500,2578,3079,3112,3405,3583,3842,4218,4501,4567,4410,5.5
+1,Private Health Insurance/Personal Health Care ($),State,3,Great Lakes,Ohio,2226,2344,2657,2921,3148,3244,3445,3647,3682,4107,4126,4091,4239,4371,5.3
+1,Private Health Insurance/Personal Health Care ($),State,6,Southwest,Oklahoma,1933,2244,2509,2688,2963,2874,2904,2941,3453,3540,3426,3552,3570,3878,5.5
+1,Private Health Insurance/Personal Health Care ($),State,8,Far West,Oregon,2101,2247,2579,2850,3034,3289,3519,3682,4069,4242,4215,4325,4120,4232,5.5
+1,Private Health Insurance/Personal Health Care ($),State,2,Mideast,Pennsylvania,2295,2426,2603,2879,3163,3299,3443,3590,3766,3896,4304,4318,4525,4634,5.6
+1,Private Health Insurance/Personal Health Care ($),State,1,New England,Rhode Island,2375,2613,2796,3163,3505,3455,3767,4044,4264,4942,4731,4870,4802,4620,5.3
+1,Private Health Insurance/Personal Health Care ($),State,5,Southeast,South Carolina,2140,2226,2402,2746,2863,3089,3256,3396,3661,3649,4006,3916,4094,4235,5.4
+1,Private Health Insurance/Personal Health Care ($),State,4,Plains,South Dakota,2053,2504,2554,2890,2906,3019,3005,3345,3553,3567,3962,4159,4353,4335,5.9
+1,Private Health Insurance/Personal Health Care ($),State,5,Southeast,Tennessee,2091,2360,2620,3025,3098,3007,3295,3710,3793,3912,4028,4355,4548,4680,6.4
+1,Private Health Insurance/Personal Health Care ($),State,6,Southwest,Texas,2158,2500,2709,2843,3183,3222,3356,3413,3838,4150,4093,4365,4582,4696,6.2
+1,Private Health Insurance/Personal Health Care ($),State,7,Rocky Mountains,Utah,1998,2241,2156,2336,2831,2967,2955,2877,3022,3141,3296,3373,3486,3657,4.8
+1,Private Health Insurance/Personal Health Care ($),State,1,New England,Vermont,2351,2573,2783,3110,3360,3208,3626,3793,4388,4207,4770,4690,4955,5313,6.5
+1,Private Health Insurance/Personal Health Care ($),State,5,Southeast,Virginia,2121,2238,2461,2876,2836,2989,3176,3178,3332,3625,3586,3855,3975,4218,5.4
+1,Private Health Insurance/Personal Health Care ($),State,8,Far West,Washington,2052,2591,2726,2842,3097,3174,3481,3744,4034,4279,4098,4435,4348,4328,5.9
+1,Private Health Insurance/Personal Health Care ($),State,5,Southeast,West Virginia,1900,2436,2574,2587,2896,3138,3365,3379,3430,3452,3972,4261,4100,3917,5.7
+1,Private Health Insurance/Personal Health Care ($),State,3,Great Lakes,Wisconsin,2397,2814,2928,3124,3506,3614,3899,4080,4653,4749,5036,4940,4997,5159,6.1
+1,Private Health Insurance/Personal Health Care ($),State,7,Rocky Mountains,Wyoming,2266,2658,2840,2852,3161,3242,3676,3829,4190,4117,4315,4667,4775,4957,6.2

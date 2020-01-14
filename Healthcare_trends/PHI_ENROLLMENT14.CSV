@@ -1,0 +1,61 @@
+Code,Item,Group,Region_Number,REGION_NAME,State_Name,Y2001,Y2002,Y2003,Y2004,Y2005,Y2006,Y2007,Y2008,Y2009,Y2010,Y2011,Y2012,Y2013,Y2014,Average_Annual_Percent_Growth
+11,Private Health Insurance Enrollee Population (Thousands),United States,0,United States,,197959,198283,196623,195430,196380,197015,197463,195888,189692,185745,184972,187828,187646,192318,-0.2
+11,Private Health Insurance Enrollee Population (Thousands),Region,1,New England,,10420,10432,10352,10229,10326,10312,10363,10287,9959,9731,9650,9681,9577,9582,-0.6
+11,Private Health Insurance Enrollee Population (Thousands),Region,2,Mideast,,33488,33620,33173,33276,33483,32902,32427,32347,31479,30723,30503,30992,30680,31005,-0.6
+11,Private Health Insurance Enrollee Population (Thousands),Region,3,Great Lakes,,34352,34296,33667,33217,32938,33341,32806,32072,30594,29759,29538,29908,29717,30125,-1
+11,Private Health Insurance Enrollee Population (Thousands),Region,4,Plains,,14902,15102,14905,14482,14702,14330,14545,14277,13896,13770,13648,13781,13798,14037,-0.5
+11,Private Health Insurance Enrollee Population (Thousands),Region,5,Southeast,,46788,46549,46909,46206,46209,46946,47456,46906,45454,44484,44320,45080,44956,46479,-0.1
+11,Private Health Insurance Enrollee Population (Thousands),Region,6,Southwest,,19810,19277,19166,19711,19885,20131,20163,20287,19849,19581,19660,20130,20440,21499,0.6
+11,Private Health Insurance Enrollee Population (Thousands),Region,7,Rocky Mountains,,6754,6777,6702,6877,6978,7072,7352,7539,7423,7303,7335,7420,7542,7757,1.1
+11,Private Health Insurance Enrollee Population (Thousands),Region,8,Far West,,31445,32230,31750,31434,31860,31981,32352,32172,31038,30393,30319,30835,30937,31834,0.1
+11,Private Health Insurance Enrollee Population (Thousands),State,5,Southeast,Alabama,3113,3107,3049,2964,2936,3052,3106,3135,3041,2978,2956,3028,2985,3042,-0.2
+11,Private Health Insurance Enrollee Population (Thousands),State,8,Far West,Alaska,412,390,394,404,402,417,418,408,401,412,412,410,446,418,0.1
+11,Private Health Insurance Enrollee Population (Thousands),State,6,Southwest,Arizona,3525,3517,3542,3537,3489,3647,3802,3781,3686,3505,3461,3543,3609,3735,0.4
+11,Private Health Insurance Enrollee Population (Thousands),State,5,Southeast,Arkansas,1663,1609,1584,1615,1664,1605,1663,1573,1550,1518,1542,1550,1529,1590,-0.3
+11,Private Health Insurance Enrollee Population (Thousands),State,8,Far West,California,21798,22870,22391,21818,21999,22045,22152,22174,21394,20877,20828,21183,21245,21970,0.1
+11,Private Health Insurance Enrollee Population (Thousands),State,7,Rocky Mountains,Colorado,3204,3199,3090,3207,3272,3298,3359,3331,3285,3227,3230,3266,3307,3388,0.4
+11,Private Health Insurance Enrollee Population (Thousands),State,1,New England,Connecticut,2657,2633,2602,2590,2667,2601,2617,2525,2438,2403,2371,2351,2299,2298,-1.1
+11,Private Health Insurance Enrollee Population (Thousands),State,2,Mideast,Delaware,617,605,626,590,599,624,623,606,588,585,589,604,588,610,-0.1
+11,Private Health Insurance Enrollee Population (Thousands),State,2,Mideast,District of Columbia,373,377,363,359,339,377,391,398,390,398,405,418,418,418,0.9
+11,Private Health Insurance Enrollee Population (Thousands),State,5,Southeast,Florida,10561,10565,10920,10713,10968,11002,11069,10687,10229,9970,9887,10036,9976,10543,0
+11,Private Health Insurance Enrollee Population (Thousands),State,5,Southeast,Georgia,5739,5919,5959,5639,5582,5963,6220,6021,5907,5639,5620,5727,5718,5907,0.2
+11,Private Health Insurance Enrollee Population (Thousands),State,8,Far West,Hawaii,895,896,936,928,946,928,931,881,828,858,849,835,835,856,-0.3
+11,Private Health Insurance Enrollee Population (Thousands),State,7,Rocky Mountains,Idaho,909,899,898,941,982,993,1048,1047,1013,1020,1027,1025,1034,1075,1.3
+11,Private Health Insurance Enrollee Population (Thousands),State,3,Great Lakes,Illinois,9033,9144,9129,9242,8994,9021,8985,8861,8432,8185,8136,8223,8150,8279,-0.7
+11,Private Health Insurance Enrollee Population (Thousands),State,3,Great Lakes,Indiana,4727,4614,4543,4269,4295,4672,4443,4329,4200,4071,4061,4101,4085,4156,-1
+11,Private Health Insurance Enrollee Population (Thousands),State,4,Plains,Iowa,2378,2315,2305,2236,2277,2180,2272,2269,2229,2172,2183,2194,2157,2209,-0.6
+11,Private Health Insurance Enrollee Population (Thousands),State,4,Plains,Kansas,1969,2073,2014,1957,2040,1967,1925,1924,1843,1839,1818,1821,1830,1844,-0.5
+11,Private Health Insurance Enrollee Population (Thousands),State,5,Southeast,Kentucky,2768,2821,2753,2634,2686,2698,2643,2675,2567,2531,2507,2568,2548,2599,-0.5
+11,Private Health Insurance Enrollee Population (Thousands),State,5,Southeast,Louisiana,2686,2708,2699,2633,2471,2400,2499,2463,2446,2389,2396,2415,2446,2497,-0.6
+11,Private Health Insurance Enrollee Population (Thousands),State,1,New England,Maine,891,876,870,861,864,893,900,869,823,817,817,816,803,827,-0.6
+11,Private Health Insurance Enrollee Population (Thousands),State,2,Mideast,Maryland,4187,4224,4158,4072,4047,4137,4072,4055,3943,3899,3942,3954,3961,3983,-0.4
+11,Private Health Insurance Enrollee Population (Thousands),State,1,New England,Massachusetts,4656,4713,4700,4631,4615,4628,4666,4765,4632,4502,4443,4515,4500,4452,-0.3
+11,Private Health Insurance Enrollee Population (Thousands),State,3,Great Lakes,Michigan,7787,7606,7581,7389,7404,7288,7214,6982,6591,6403,6357,6445,6426,6566,-1.3
+11,Private Health Insurance Enrollee Population (Thousands),State,4,Plains,Minnesota,4051,4140,4042,4105,4055,3916,4049,3837,3741,3702,3679,3748,3741,3787,-0.5
+11,Private Health Insurance Enrollee Population (Thousands),State,5,Southeast,Mississippi,1667,1704,1658,1646,1581,1672,1559,1589,1501,1454,1460,1472,1454,1520,-0.7
+11,Private Health Insurance Enrollee Population (Thousands),State,4,Plains,Missouri,4160,4224,4210,3899,3990,3962,3971,3918,3841,3769,3703,3698,3737,3795,-0.7
+11,Private Health Insurance Enrollee Population (Thousands),State,7,Rocky Mountains,Montana,610,612,579,589,614,611,626,630,610,634,610,596,610,644,0.4
+11,Private Health Insurance Enrollee Population (Thousands),State,4,Plains,Nebraska,1296,1303,1298,1278,1311,1299,1272,1298,1238,1248,1234,1268,1269,1286,-0.1
+11,Private Health Insurance Enrollee Population (Thousands),State,8,Far West,Nevada,1547,1443,1516,1615,1649,1651,1756,1693,1648,1604,1590,1614,1637,1694,0.7
+11,Private Health Insurance Enrollee Population (Thousands),State,1,New England,New Hampshire,1005,1016,1002,1009,1010,1006,1017,989,976,953,952,936,935,955,-0.4
+11,Private Health Insurance Enrollee Population (Thousands),State,2,Mideast,New Jersey,6391,6405,6334,6464,6480,6289,6115,6188,6022,5920,5860,5925,5821,5897,-0.6
+11,Private Health Insurance Enrollee Population (Thousands),State,6,Southwest,New Mexico,1006,1038,1013,1090,1093,1049,1053,1030,1000,1024,988,1025,969,996,-0.1
+11,Private Health Insurance Enrollee Population (Thousands),State,2,Mideast,New York,12459,12649,12512,12801,12754,12423,12133,12271,11913,11408,11302,11576,11406,11565,-0.6
+11,Private Health Insurance Enrollee Population (Thousands),State,5,Southeast,North Carolina,5461,5320,5211,5581,5571,5613,5740,5777,5589,5534,5548,5580,5627,5868,0.6
+11,Private Health Insurance Enrollee Population (Thousands),State,4,Plains,North Dakota,467,481,480,476,477,457,472,469,474,488,489,502,521,547,1.2
+11,Private Health Insurance Enrollee Population (Thousands),State,3,Great Lakes,Ohio,8556,8664,8341,8265,8148,8190,8035,7863,7500,7332,7281,7324,7287,7296,-1.2
+11,Private Health Insurance Enrollee Population (Thousands),State,6,Southwest,Oklahoma,2210,2244,2130,2106,2159,2084,2111,2290,2239,2247,2253,2289,2300,2395,0.6
+11,Private Health Insurance Enrollee Population (Thousands),State,8,Far West,Oregon,2469,2472,2402,2442,2461,2459,2529,2600,2477,2413,2401,2453,2437,2427,-0.1
+11,Private Health Insurance Enrollee Population (Thousands),State,2,Mideast,Pennsylvania,9462,9360,9179,8990,9264,9053,9094,8830,8623,8514,8406,8515,8488,8533,-0.8
+11,Private Health Insurance Enrollee Population (Thousands),State,1,New England,Rhode Island,776,756,752,729,751,753,737,723,688,664,669,662,658,654,-1.3
+11,Private Health Insurance Enrollee Population (Thousands),State,5,Southeast,South Carolina,2886,2699,2792,2635,2645,2668,2792,2834,2740,2678,2682,2715,2757,2829,-0.2
+11,Private Health Insurance Enrollee Population (Thousands),State,4,Plains,South Dakota,581,566,557,531,552,549,585,561,529,552,543,550,541,569,-0.2
+11,Private Health Insurance Enrollee Population (Thousands),State,5,Southeast,Tennessee,3848,3850,3928,3693,3670,3797,3815,3605,3446,3399,3362,3486,3421,3506,-0.7
+11,Private Health Insurance Enrollee Population (Thousands),State,6,Southwest,Texas,13069,12479,12481,12977,13144,13351,13197,13186,12923,12805,12957,13274,13562,14373,0.7
+11,Private Health Insurance Enrollee Population (Thousands),State,7,Rocky Mountains,Utah,1690,1730,1805,1787,1766,1808,1953,2172,2159,2060,2104,2168,2200,2262,2.3
+11,Private Health Insurance Enrollee Population (Thousands),State,1,New England,Vermont,435,439,426,408,419,430,427,417,402,391,398,401,382,396,-0.7
+11,Private Health Insurance Enrollee Population (Thousands),State,5,Southeast,Virginia,5271,5169,5289,5352,5324,5362,5222,5392,5303,5267,5267,5375,5372,5468,0.3
+11,Private Health Insurance Enrollee Population (Thousands),State,8,Far West,Washington,4322,4160,4111,4227,4403,4481,4566,4416,4289,4230,4238,4340,4338,4468,0.3
+11,Private Health Insurance Enrollee Population (Thousands),State,5,Southeast,West Virginia,1125,1080,1068,1101,1110,1112,1127,1156,1134,1127,1093,1129,1123,1108,-0.1
+11,Private Health Insurance Enrollee Population (Thousands),State,3,Great Lakes,Wisconsin,4249,4267,4072,4053,4098,4170,4128,4037,3873,3768,3703,3816,3768,3828,-0.8
+11,Private Health Insurance Enrollee Population (Thousands),State,7,Rocky Mountains,Wyoming,341,337,331,353,344,363,366,360,357,363,364,365,392,389,1

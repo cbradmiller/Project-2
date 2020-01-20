@@ -26,6 +26,7 @@ def home():
         "/api/v1.0/USHealthCare<br/>"
         "/api/v1.0/foodData/country_name<br/>"
         "/api/v1.0/countrynames<br/>"
+        "/api/v1.0/dataFoodIndex<br/>"
     )
 
 @app.route("/api/v1.0/USHealthCare")
@@ -38,13 +39,12 @@ def healthcareCost():
 def foodDataByCountry(countryName):
     #untested
     countryFood = {
-        "1990": session.querry(f"select * from median_data_1990 where lower(countryname) = lower('{countryName}');",
-        "1995": session.querry(f"select * from median_data_1995 where lower(countryname) = lower('{countryName}');",
-        "2000": session.querry(f"select * from median_data_2000 where lower(countryname) = lower('{countryName}');",
-        "2005": session.querry(f"select * from median_data_2005 where lower(countryname) = lower('{countryName}');",
-        "2010": session.querry(f"select * from median_data_2010 where lower(countryname) = lower('{countryName}');",
-        "2015": session.querry(f"select * from median_data_2015 where lower(countryname) = lower('{countryName}');"
-)
+        "1990": session.querry(f"select * from median_data_1990 where lower(countryname) = lower('{countryName}');"),
+        "1995": session.querry(f"select * from median_data_1995 where lower(countryname) = lower('{countryName}');"),
+        "2000": session.querry(f"select * from median_data_2000 where lower(countryname) = lower('{countryName}');"),
+        "2005": session.querry(f"select * from median_data_2005 where lower(countryname) = lower('{countryName}');"),
+        "2010": session.querry(f"select * from median_data_2010 where lower(countryname) = lower('{countryName}');"),
+        "2015": session.querry(f"select * from median_data_2015 where lower(countryname) = lower('{countryName}');")
     }
     return(jsonify(countryFood))
 

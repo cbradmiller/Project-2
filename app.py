@@ -1,10 +1,14 @@
 
+import numpy as np
 import os
-from flask import Flask, render_template
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
-from sqlalchemy import create_engine, func
+from sqlalchemy import create_engine, func, DateTime
+from dateutil.relativedelta import relativedelta
+import datetime as dt
+
+from flask import Flask, jsonify
 db_url = os.getenv("DATABASE_URL")
 engine = create_engine(db_url)
 
@@ -21,17 +25,29 @@ data_2010 = Base.classes.median_data_2010
 app = Flask(__name__)
 
 @app.route("/")
-def home():
-    healthcare_query = engine.execute("""select * from us_healthcare_costs_percapita;""")
-    healthcare = []
-    for h in healthcare_query:
-        healthcare.append({
-            "year_cost": h[0],
-            "Per_Capita_Cost": h[1]
-        })
-    return render_template("index.html", healthcare=healthcare)
-if __name__ == '__main__':
-    app.run(debug = True)
+def home_page():
+    return (
+        f"Available Routes:<br/>"
+        f"/api/v1.0/Healthcarecosts<br/>"
+        # f"/api/v1.0/stations<br/>"
+        # f"/api/v1.0/tobs<br/>"
+        # f"/api/v1.0/<start><br/>"
+        # f"/api/v1.0/<start>/<end><br/>"
+    )
+@app.route("/api/v1.0/Healthcarecosts")
+def healthcare_data():
+    session = Session(engine)
+    all_m = session.query(data_1990.countryname,data_1990.fruit_consumption).all()
+    session.close()
+    all_measure = []
+    for country, fruit in all_m:
+        data_dict = {}
+        data_dict["Date"] = country
+        data_dict["Precipitation"] = fruit
+        all_measure.append(data_dict)
+
+    return jsonify(all_measure)
+
 
 # @app.route("/api/v1.0/foodData/<countryName>")
 # def foodDataByCountry(countryName):

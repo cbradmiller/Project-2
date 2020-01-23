@@ -1,20 +1,21 @@
-from flask import Flask, jsonify, render_template
+
 import os
+from flask import Flask, render_template
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
-from sqlalchemy import create_engine, func, desc
+from sqlalchemy import create_engine, func
 db_url = os.getenv("DATABASE_URL")
 engine = create_engine(db_url)
 
 Base = automap_base()
 Base.prepare(engine, reflect=True)
 
-median_data_1990 = Base.classes.median_data_1990
-median_data_1995 = Base.classes.median_data_1995
-median_data_2000 = Base.classes.median_data_2000
-median_data_2005 = Base.classes.median_data_2005
-median_data_2010 = Base.classes.median_data_2010
+data_1990 = Base.classes.median_data_1990
+data_1995 = Base.classes.median_data_1995
+data_2000 = Base.classes.median_data_2000
+data_2005 = Base.classes.median_data_2005
+data_2010 = Base.classes.median_data_2010
 
 
 app = Flask(__name__)

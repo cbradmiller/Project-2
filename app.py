@@ -10,9 +10,6 @@ from sqlalchemy import create_engine, func
 db_url = os.getenv("DATABASE_URL")
 engine = create_engine(db_url)
 
-db_url = os.getenv("DATABASE_URL")
-engine = create_engine(db_url)
-
 Base = automap_base()
 Base.prepare(engine, reflect=True)
 

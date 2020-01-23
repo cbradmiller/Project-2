@@ -22,17 +22,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return(
-        "Available Routes:<br/>"
-        "/api/v1.0/USHealthCare<br/>"
-        # "/api/v1.0/foodData/country_name<br/>"
-        # "/api/v1.0/countrynames<br/>"
-        # "/api/v1.0/dataFoodIndex<br/>"
-    )
-
-@app.route("/api/v1.0/USHealthCare")
-def healthcareCost():
-
     healthcare_query = engine.execute("""select * from us_healthcare_costs_percapita;""")
     healthcare = []
     for h in healthcare_query:
@@ -41,6 +30,9 @@ def healthcareCost():
             "Per_Capita_Cost": h[1]
         })
     return render_template("index.html", healthcare=healthcare)
+if __name__ == '__main__':
+    app.run(debug = True)
+
 # @app.route("/api/v1.0/foodData/<countryName>")
 # def foodDataByCountry(countryName):
 #     #untested
@@ -75,7 +67,3 @@ def healthcareCost():
 # 	potassium_milligrams,
 # 	total_milk]}
 #     return(jsonify(indexNames))
-
-
-if __name__ == '__main__':
-    app.run(debug = True)

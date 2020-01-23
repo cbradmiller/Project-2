@@ -1,12 +1,16 @@
 from flask import Flask, jsonify
 import os
+from flask_cors import CORS
 
-import os
-from flask import Flask, render_template
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
-from sqlalchemy import create_engine, func
+from sqlalchemy import create_engine, func, desc
+
+#just have to set up the engine. Like below.
+
+# engine = create_engine("sqlite:///Resources/hawaii.sqlite")
+
 db_url = os.getenv("DATABASE_URL")
 engine = create_engine(db_url)
 
@@ -16,8 +20,10 @@ Base.prepare(engine, reflect=True)
 # Measurement = Base.classes.measurement
 # Station = Base.classes.station
 
+session = Session(engine)
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route("/")
 def home():
@@ -105,24 +111,6 @@ def getFoodIndex ():
 	'total_milk']
     return(jsonify(indexNames))
 
-# @app.route("/api/v1.0/countrynames")
-# def getCountryNames():
-#     #untested
-#     namesOfCountries = {"countryNames": session.query('select countryname from median_data_1990;')}
-#     return(jsonify(namesOfCountries))
 
-# @app.route("/api/v1.0/dataFoodIndex")
-# def getFoodIndex ():
-#     #this may have to do, unless there is an easy way to get the indexs of the db.
-#     indexNames = {"indexs":[fruit_consumption,
-# 	nonstarchy_vegetable_consumption,
-# 	beans_and_legumes,
-# 	nuts_and_seeds,
-# 	unprocessed_red_meat,
-# 	sugarsweetened_beverages,
-# 	fruit_juices,
-# 	protein,
-# 	calcium_milligrams,
-# 	potassium_milligrams,
-# 	total_milk]}
-#     return(jsonify(indexNames))
+if __name__ == '__main__':
+    app.run(debug = True)

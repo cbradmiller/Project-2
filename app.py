@@ -1,6 +1,5 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 import os
-
 import sqlalchemy
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
@@ -17,7 +16,6 @@ median_data_2000 = Base.classes.median_data_2000
 median_data_2005 = Base.classes.median_data_2005
 median_data_2010 = Base.classes.median_data_2010
 
-session = Session(engine)
 
 app = Flask(__name__)
 

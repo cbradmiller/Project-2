@@ -90,7 +90,7 @@ function makeChartjsFromCountryData(countryData){
                 borderColor: 'red',
                 data: redmeatlist
             },{
-                label: 'Soda',
+                label: 'Soda-pop',
                 borderColor: 'pink',
                 data: sodalist
             }]
@@ -106,7 +106,7 @@ d3.json(baseURL + base_country_food_data + starting_country, function(data){
         options: {
             title: {
                 display: true,
-                text: 'Food Comsumpion per year from USA, Puerto Rico and US Virgin Islands'
+                text: 'Food Comsumpion per year from USA, Puerto Rico and US Virgin Islands in Grams'
             }
         }
 })
@@ -126,10 +126,20 @@ d3.selectAll("#selDataset").on("change", function(d){
         options: {
             title: {
                 display: true,
-                text: `Food Comsumpion per year from ${dataset}`
+                text: `Food Comsumpion per year from ${dataset} in Grams`
+            },
+            scales: {
+                yAxes: [{
+                  scaleLabel: {
+                    display: true,
+                    labelString: 'probability'
+                  }
+                }]
+              }     
+            
             }
         }
-    })
+    )
     })
 })
 })

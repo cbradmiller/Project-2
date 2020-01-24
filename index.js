@@ -13,9 +13,123 @@ var cnameURL = '/api/v1.0/countrynames'
 var foodIURL = '/api/v1.0/dataFoodIndex'
 var base_country_food_data = '/api/v1.0/foodData/' //and then the country name
 var starting_country =	"USA, Puerto Rico and US Virgin Islands"
-d3.json(baseURL + USHCURL, function(data){
-    console.log(data) //healthcare data
-})
-//call the api for the food indexes to set up that dropdown menu
 
-//call the other api to get the data for the other things, starting on us?
+//setting up the page.
+d3.json(baseURL + cnameURL , function(data){
+    console.log(data)
+    for (var i = 0; i < data.length; i++) {
+        var optionButton = document.createElement("option");
+        var pTag = document.createElement("p");
+        var sample_id = data[i]
+        optionButton.text = sample_id;
+        optionButton.value = sample_id;
+        document.getElementById("selDataset").appendChild(optionButton);
+    }
+    // var item = d3.select('#selDataset')
+    // item.selectAll('option').data(data).enter().append('option').text(function(d){
+    //     return d;
+    // });
+})
+
+function makeChartjsFromCountryData(countryData){
+    beanslist = []
+    fruitlist = []
+    juicelist = []
+    milklist  = []
+    veglist   = []
+    nutlist   = []
+    proteinlist = []
+    redmeatlist = []
+    sodalist = []
+    // countryData.forEach(i=>
+    for (var i = 0; i < foodYears.length; i++){
+        // console.log(countryData[i])
+       beanslist.push(countryData[foodYears[i]][0]["beans"]);
+       fruitlist.push(countryData[foodYears[i]][0]["fruit"]);
+       juicelist.push(countryData[foodYears[i]][0]["fruitJuice"]);
+       milklist.push(countryData[foodYears[i]][0]["milk"]);
+       veglist.push(countryData[foodYears[i]][0]["nsVeg"]);
+       nutlist.push(countryData[foodYears[i]][0]["nuts"]);
+       proteinlist.push(countryData[foodYears[i]][0]["protein"]);
+       redmeatlist.push(countryData[foodYears[i]][0]["redMeat"]);
+       sodalist.push(countryData[foodYears[i]][0]["soda"]);
+    }
+    
+        return {
+            labels: foodYears,
+            datasets:[{
+                label: 'Beans',
+                borderColor: 'brown',
+                data: beanslist
+            },{
+                label: 'Fruit',
+                borderColor: 'yellow',
+                data: fruitlist
+            },{
+                label: 'Fruit Juice',
+                borderColor: 'orange',
+                data: juicelist
+            },{
+                label: 'Milk',
+                borderColor: 'black',
+                data: milklist
+            },{
+                label: 'Non Starchy Vegetables',
+                borderColor: 'green',
+                data: veglist
+            },{
+                label: 'Nuts',
+                borderColor: 'blue',
+                data: nutlist
+            },{
+                label: 'Protein',
+                borderColor: 'yellow',
+                data: proteinlist
+            },{
+                label: 'Red Meat',
+                borderColor: 'red',
+                data: redmeatlist
+            },{
+                label: 'Soda',
+                borderColor: 'pink',
+                data: sodalist
+            }]
+}
+}
+
+d3.json(baseURL + base_country_food_data + starting_country, function(data){
+    console.log(data) //food data
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var chart = new Chart(ctx, {
+        type:'line',
+        data:makeChartjsFromCountryData(data),
+        options: {
+            title: {
+                display: true,
+                text: 'Food Comsumpion per year from USA, Puerto Rico and US Virgin Islands'
+            }
+        }
+})
+
+
+d3.selectAll("#selDataset").on("change", function(d){
+    var dropdownMenu = d3.select("#selDataset");
+    var dataset = dropdownMenu.property("value");
+    console.log(dataset);
+    chart.destroy()
+    d3.json(baseURL+base_country_food_data+dataset, function(data){
+        console.log(data)
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var chart = new Chart(ctx, {
+        type:'line',
+        data: makeChartjsFromCountryData(data),
+        options: {
+            title: {
+                display: true,
+                text: `Food Comsumpion per year from ${dataset}`
+            }
+        }
+    })
+    })
+})
+})

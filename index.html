@@ -13,8 +13,42 @@
 
     </head>
     <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Country eating habits</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="page2.html">US with healthcare cost</a>
+                </li>
+                
+              </ul>
+            </div>
+          </nav>
         <h1>Just testing now!</h1>
-        <canvas id="myChart" width="400" height="100"></canvas>
+        <div class="row">
+            <div class="col-md-3">
+              <div class="panel panel-primary">
+                <div class="panel-body">
+                    Country Name
+                    <br/>
+                  <select id="selDataset">
+                  </select>
+                </div>
+              </div>
+              <div class="panel panel-primary">
+                  <div class="panel-body demo-info">
+                      Please select a country.
+                  </div>
+              </div>
+            </div>
+            <div class="col-md-9">
+                <canvas id="myChart" width="400" height="200"></canvas>
+            </div>
+            <!-- <div class='col-4'><p>I just wanted to see how chartjs worked with bootstrap, not sure if it does, so testing.</p></div> -->
+        </div>
         <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
         <script src="index.js"></script>
 
